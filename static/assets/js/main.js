@@ -9,18 +9,6 @@ var videoEmbeds = [
 ];
 reframe(videoEmbeds.join(','));
 
-// Google Analytics
-
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-160626931-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-160626931-1');
-</script>
-
 // Mobile menu
 var menuToggle = document.querySelectorAll('.menu-toggle');
 if (menuToggle) {
